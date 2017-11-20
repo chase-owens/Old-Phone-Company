@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D4D7F681FC0A42000D76E41 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4D7F671FC0A42000D76E41 /* ProductsTableViewController.swift */; };
 		5D615C771FBFBA9A0021971A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D615C761FBFBA9A0021971A /* AppDelegate.swift */; };
-		5D615C791FBFBA9A0021971A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D615C781FBFBA9A0021971A /* ViewController.swift */; };
+		5D615C791FBFBA9A0021971A /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D615C781FBFBA9A0021971A /* ProductViewController.swift */; };
 		5D615C7C1FBFBA9A0021971A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D615C7A1FBFBA9A0021971A /* Main.storyboard */; };
 		5D615C7E1FBFBA9A0021971A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D615C7D1FBFBA9A0021971A /* Assets.xcassets */; };
 		5D615C811FBFBA9A0021971A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D615C7F1FBFBA9A0021971A /* LaunchScreen.storyboard */; };
+		5D615C8D1FC07FA90021971A /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D615C8C1FC07FA90021971A /* ContactViewController.swift */; };
+		5D713BD01FC240020090B922 /* ProductObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D713BCF1FC240020090B922 /* ProductObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D4D7F671FC0A42000D76E41 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 		5D615C731FBFBA990021971A /* Old Phone Company.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Old Phone Company.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D615C761FBFBA9A0021971A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5D615C781FBFBA9A0021971A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D615C781FBFBA9A0021971A /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		5D615C7B1FBFBA9A0021971A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D615C7D1FBFBA9A0021971A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D615C801FBFBA9A0021971A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D615C821FBFBA9A0021971A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D615C8C1FC07FA90021971A /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		5D713BCF1FC240020090B922 /* ProductObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				5D615C761FBFBA9A0021971A /* AppDelegate.swift */,
-				5D615C781FBFBA9A0021971A /* ViewController.swift */,
+				5D615C781FBFBA9A0021971A /* ProductViewController.swift */,
+				5D615C8C1FC07FA90021971A /* ContactViewController.swift */,
 				5D615C7A1FBFBA9A0021971A /* Main.storyboard */,
 				5D615C7D1FBFBA9A0021971A /* Assets.xcassets */,
 				5D615C7F1FBFBA9A0021971A /* LaunchScreen.storyboard */,
 				5D615C821FBFBA9A0021971A /* Info.plist */,
+				5D4D7F671FC0A42000D76E41 /* ProductsTableViewController.swift */,
+				5D713BCF1FC240020090B922 /* ProductObject.swift */,
 			);
 			path = "Old Phone Company";
 			sourceTree = "<group>";
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D615C791FBFBA9A0021971A /* ViewController.swift in Sources */,
+				5D4D7F681FC0A42000D76E41 /* ProductsTableViewController.swift in Sources */,
+				5D615C791FBFBA9A0021971A /* ProductViewController.swift in Sources */,
 				5D615C771FBFBA9A0021971A /* AppDelegate.swift in Sources */,
+				5D713BD01FC240020090B922 /* ProductObject.swift in Sources */,
+				5D615C8D1FC07FA90021971A /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +292,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ChaseThat.Old-Phone-Company";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -294,7 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ChaseThat.Old-Phone-Company";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
